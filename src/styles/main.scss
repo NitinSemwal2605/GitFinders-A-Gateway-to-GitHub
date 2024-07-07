@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    transition: all 130ms linear;
+    @apply m-0 p-0 box-border;
+  }
+
+  body {
+    @apply dark:bg-dark-secondary size-full;
+    font-family: 'Source Code Pro', monospace;
+  }
+}
+
+@layer utilities {
+  .flex-center {
+    @apply flex justify-center items-center;
+  }
+
+  .flex-between {
+    @apply flex justify-between items-center;
+  }
+
+  .wrapper {
+    @apply dark:bg-neutral dark:text-neutral-content bg-gray-100 shadow-md rounded-xl;
+
+    &-spacing {
+      @apply px-5 py-4;
+    }
+  }
+}
+
+@layer components {
+  .theme-icon {
+    @apply size-6 sm:size-7;
+  }
+
+  .skel {
+    @apply skeleton dark:bg-neutral;
+  }
+
+  .user-stats {
+    @apply bg-white dark:bg-dark-primary w-32 md:w-36 text-center p-2.5 rounded-lg space-y-1 shadow-sm;
+
+    & > p {
+      @apply capitalize font-medium;
+    }
+
+    & > h4 {
+      @apply text-2xl font-medium;
+    }
+  }
+
+  .social-item {
+    @apply flex gap-1.5 text-xl;
+
+    & > p,
+    & > a {
+      @apply text-sm;
+    }
+  }
+}
+
+
+/* styles.css or your preferred way of styling */
+:root {
+  --primary-color: #3498db; /* blue */
+  --secondary-color: #2c3e50; /* black */
+  --bg-color: #1e272e; /* dark background */
+  --text-color: #ffffff; /* white text */
+}
