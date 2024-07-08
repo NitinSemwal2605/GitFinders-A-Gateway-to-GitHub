@@ -29,7 +29,8 @@ GitFinder lets you search GitHub users and view their profiles and repositories.
 
 ## Screenshot
 
-![project screenshot](./screenshot.png)
+![project screenshot](./Screenshot.png) 
+![project screenshot](./Screenshot1.png) 
 
 ---
 
