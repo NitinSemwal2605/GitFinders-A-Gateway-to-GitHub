@@ -1,7 +1,3 @@
-Sure, here is the revised GitFinder README based on your template:
-
----
-
 # GitFinder
 
 GitFinder lets you search GitHub users and view their profiles and repositories. It is a simple web application built with React, TailwindCSS, and Zustand for state management. It allows you to search for GitHub users and view their details and repositories.
