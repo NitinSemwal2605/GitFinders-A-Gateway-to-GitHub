@@ -25,7 +25,7 @@ GitFinder lets you search GitHub users and view their profiles and repositories.
 ## Links
 
 - Source Code: [GitHub Repository](https://github.com/NitinSemwal2605/GitFinders-A-Gateway-to-GitHub)
-- Live Demo: [GitFinder Live](https://gitfinders.vercel.app/home)
+- Live Demo: [GitFinder Live](https://gitfinders.vercel.app/)
 
 ## Screenshot
 
