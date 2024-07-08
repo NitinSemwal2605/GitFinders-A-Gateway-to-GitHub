@@ -29,7 +29,7 @@ const UserGraph = () => {
       <div className='contributions-box mt-6 p-4 rounded-lg shadow-md bg-white dark:bg-dark-primary'>
         <h3 className='text-xl font-semibold mb-4'>Contributions</h3>
         {user.login ? (
-          <div>
+          <div className='hidden sm:block'>
             <GitHubCalendar
               username={user.login}
               blockSize={15}
